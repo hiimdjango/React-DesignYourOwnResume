@@ -1,0 +1,39 @@
+/* ---------------------------
+Footer division style
+----------------------------*/
+.Background {
+  min-height:200px;
+  background-image: url('../../images/footer/bg.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+  margin-top:-10%;
+  padding-bottom: 10px;
+}
+/* ---------------------------
+Logo Part Style
+----------------------------*/
+.Footer p {
+  text-align: center;
+  padding-top:80px;
+}
+
+.Footer i {
+  padding: 20px;
+}
+
+.Footer i:hover {
+  cursor: pointer;
+}
+
+.Footer svg:hover {
+  transform: scale(2);
+}
+
+/* ---------------------------
+Opacity Settings
+----------------------------*/
+.Footer {
+  background-color: rgba(0, 0, 0, 0.2); 
+  height: 200px;
+}

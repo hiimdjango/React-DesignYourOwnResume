@@ -1,0 +1,49 @@
+/* ---------------------------
+Header Style
+----------------------------*/
+.Header {
+    height: 125vh;
+    background-image: url(../../images/header/bg4.jpeg); 
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+/* ---------------------------
+Header  Title Style
+----------------------------*/
+.Main {
+    position: relative;
+    top:30%; 
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.Main h1 {
+    color: white;
+    font-size: 8vw;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 2px 2px #666666;
+    opacity: 0.9;
+    letter-spacing: 10px;
+    
+}
+
+.Main span {
+    font-size: 10vw;
+    font-weight: bold;
+}
+
+/* ---------------------------
+Make the text unselectable 
+----------------------------*/
+h1 , p, h3 {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

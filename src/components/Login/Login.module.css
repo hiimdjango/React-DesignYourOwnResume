@@ -1,0 +1,65 @@
+/* ---------------------------
+Login Container Style
+----------------------------*/
+.Login {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color:#666;
+}
+/* ---------------------------
+Login Form Style
+----------------------------*/
+.Box1 {
+  background-color:white;
+  flex: 1;
+}
+.Box1 form input {
+  padding: 10px;
+  font-size: 0.8em;
+  margin: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.Box1 form {
+  padding: 40px;
+}
+
+.Box1 button {
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #497bf1;
+  color: white;
+  border: none;
+}
+.Box1 button:hover {
+  background-color: #356df0;
+  cursor: pointer;
+}
+
+.Box1 span:hover {
+  color: #356df0;
+  cursor: pointer;
+}
+
+.Box1 p {
+  font-size:0.9em;
+}
+/* ---------------------------
+Login Buttons Style
+----------------------------*/
+.Box2 {
+  background-color: white;
+  flex: 1.5;
+  border-left: 1px solid #ccc;
+}
+
+.Buttons {
+  padding: 40px;
+}
+
+.Button {
+  margin-bottom: 20px !important;
+}

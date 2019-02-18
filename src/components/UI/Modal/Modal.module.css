@@ -1,0 +1,88 @@
+/* ---------------------------
+Modal Style
+----------------------------*/
+.Modal {
+    position: fixed;
+    z-index: 200;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transition: all 0.3s ease-out;
+    transform: translate(-50%, -50%);
+}
+/* ---------------------------
+ Open Modal Class
+----------------------------*/
+
+.ModalOpen {
+    animation: openModal 0.5s ease-out forwards;
+}
+
+/* ---------------------------
+Close Modal Style
+----------------------------*/
+
+.ModalClosed {
+    animation: closeModal 0.4s ease-out forwards;
+}
+
+/* ---------------------------
+Animations
+----------------------------*/
+
+@keyframes openModal {
+    0% {
+        opacity: 0;
+        
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes closeModal {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/* ---------------------------
+Modal Responsive Style
+----------------------------*/
+@media(max-width:800px) {
+    .Modal {
+        position: fixed;
+        width: 90%;
+        height: 90%;
+        overflow: scroll;
+        margin: auto;
+
+    }
+}
+
+@media(max-width:1000px) and (max-height:600px)  {
+    .Modal {
+        position: fixed;
+        width: 90%;
+        height: 90%;
+        overflow: scroll;
+        margin: auto;
+
+    }
+}
+
+
